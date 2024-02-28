@@ -1,4 +1,4 @@
-# Payaut PHP Integration
+# KomfortKasse PHP Integration
 
 This is a PHP library for integrating [Komfortkasse](https://ssl.komfortkasse.eu/) apis
 
