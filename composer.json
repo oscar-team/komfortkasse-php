@@ -1,0 +1,23 @@
+{
+    "name": "oscar-team/komfortkasse-php",
+    "description": "Komfortkasse php sdk",
+    "type": "library",
+    "require": {
+        "php": ">=8.1",
+        "saloonphp/saloon": "^3.7"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "autoload": {
+        "psr-4": {
+            "OscarTeam\\KomfortkassePhp\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
