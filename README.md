@@ -18,7 +18,7 @@ require __DIR__ . '/vendor/autoload.php';
 $client = new OscarTeam\KomfortkassePhp\KomfortKasseApi(token: 'token');
 ```
 
-### [Account Holders Apis]('https://apidocs.payaut.com/#tag/Account-Holders')
+### [Order Apis]('https://komfortkasse.docs.apiary.io/#reference/0/single-order-operations')
 ```php
 $orderData = [
     "number" => 12345,
