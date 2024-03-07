@@ -2,11 +2,12 @@
 
 namespace OscarTeam\KomfortkassePhp\Requests;
 
+use Saloon\Contracts\Body\HasBody;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
 use Saloon\Traits\Body\HasJsonBody;
 
-class SubmitOrders extends Request
+class SubmitOrders extends Request implements HasBody
 {
     use HasJsonBody;
 
